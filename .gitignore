@@ -237,3 +237,4 @@ _Pvt_Extensions
 # .VS folder
 /vs
 /.vs/Portfolio.App
+/Portfolio.App/ClientApp/.angular/cache/13.3.4

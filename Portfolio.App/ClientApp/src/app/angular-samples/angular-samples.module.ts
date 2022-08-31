@@ -4,6 +4,8 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AngularSamplesComponent } from './angular-samples.component';
 import { NgxBootstrapSharedModule } from '../ngx-bootstrap-shared/ngx-bootstrap-shared.module';
+import { DatePickerComponent } from './date-picker/date-picker.component';
+import { ButtonsComponent } from './buttons/buttons.component';
 
 const routes: Routes = [
   { path: '', component: AngularSamplesComponent }
@@ -11,7 +13,9 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [
-    AngularSamplesComponent
+    AngularSamplesComponent,
+    DatePickerComponent,
+    ButtonsComponent
   ],
   imports: [
     CommonModule,
